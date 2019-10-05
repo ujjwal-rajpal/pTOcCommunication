@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pTOcCommunication';
+  // creatte a variable 
+  Custom_data :object;
+
+  constructor(){
+   // asign some value 
+   this.Custom_data = {
+    name : "ujjwal",
+    content : "Parent to child communication"
+  }
+}
+
+
+
 }
